@@ -1,0 +1,7 @@
+node_modules
+.next
+preview
+t.py
+.env*
+*.tsbuildinfo
+next-env.d.ts

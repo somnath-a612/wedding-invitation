@@ -1,0 +1,8 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html{scroll-behavior:smooth;background:#2B0A10}
+body{color:#FBF3E4;font-family:var(--f-serif),serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.gold-text{background:linear-gradient(90deg,#9c7425,#f6dc8e,#D4A64A,#f6dc8e,#9c7425);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent}
+.alpona{background-image:radial-gradient(circle at 50% 50%,rgba(212,166,74,.18) 1.5px,transparent 2px);background-size:26px 26px}
+.no-scrollbar::-webkit-scrollbar{display:none}
+:focus-visible{outline:2px solid #D4A64A;outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01ms!important}}
